@@ -75,4 +75,4 @@ The project follows the **Waterfall Model**, a sequential approach consisting of
 
 1. **Clone the repository**:
    ```bash
-   git clone [repository URL]
+   git clone [https://github.com/codewithprajapti/ChamundaAutoGarage.git]
