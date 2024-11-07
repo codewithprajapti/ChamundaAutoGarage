@@ -1,0 +1,12 @@
+{
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": true,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
+}

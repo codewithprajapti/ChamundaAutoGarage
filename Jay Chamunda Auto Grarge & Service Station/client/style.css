@@ -1,0 +1,19 @@
+:root{
+
+    --blue : #303481;
+    --lightBlue : #D6E6F2;
+    --white : #F5F5F5;
+    --yellow : #FFF200;
+    --gray: #d7d6d6;
+
+}
+
+
+
+/* Custom Scrobar */
+
+::-webkit-scrollbar{
+
+    width: 0;
+
+}

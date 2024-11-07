@@ -1,0 +1,63 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.header_main{
+
+    background: var(--blue);
+    width: 100%;
+
+}
+.header_fr_main {
+
+    padding-top: 2vh;
+    /* margin-bottom: 4vh; */
+
+}
+
+.hed_fr_add_det {
+
+    color: var(--yellow);
+
+}
+
+.hed_fr_nam_main {
+
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    color: var(--white);
+    /* border: 1px solid purple */
+
+}
+
+.header_main{
+
+    background: var(--blue);
+
+}
+
+.hed_fr_main{
+
+    padding-top: 1vh
+
+}
+
+.hed_icn{
+
+    color: var(--yellow);
+    /* padding-left: .5vw; */
+
+}

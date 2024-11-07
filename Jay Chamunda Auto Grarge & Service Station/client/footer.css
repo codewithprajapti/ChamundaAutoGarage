@@ -1,0 +1,125 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+.footer_main {
+
+    background: linear-gradient(rgba(48, 52, 129, 0.596), rgba(48, 52, 129, 0.596)), url("https://img.freepik.com/premium-photo/motorcycle-road-motorcycle-racing-sports-bike-riding-hd-wallpaper_594776-1204.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 70vh; */
+
+
+
+}
+
+.foot_fr_main img {
+
+    height: 13vh;
+    width: 13vw;
+    margin-top: 3vh;
+
+}
+
+.foot_fr_main p {
+
+    color: var(--lightBlue);
+    font-size: 1em;
+
+}
+
+.footer_main hr {
+
+    opacity: 40%;
+    color: var(--white);
+
+}
+
+.foot_sr_fc_main h1 {
+
+    color: var(--blue);
+    margin-left: 4.2vw;
+    font-size: 1.8em;
+    font-weight: 700;
+
+}
+
+.fot_sr_icn {
+
+    color: var(--yellow);
+    padding-top: 3vh;
+
+}
+
+.fot_sr_fc_fstr_det h3 {
+
+    color: var(--lightBlue);
+    font-size: 1.2em;
+    margin-bottom: 0;
+
+}
+
+.fot_sr_fc_fstr_det p {
+
+    color: var(--white);
+    font-size: .9em;
+    margin-top: -1;
+
+}
+
+.fot_sr_scncom_main h1 {
+
+    font-size: 1.8em;
+    color: var(--blue);
+    font-weight: 900;
+    margin-left: 5vw;
+}
+
+.fot_sr_sc_fstr_det h3 {
+
+    font-size: 1.2em;
+    color: var(--lightBlue);
+    margin-bottom: 0;
+
+}
+
+.fot_sr_sc_fstr_det p {
+
+    font-size: .9em;
+    color: var(--white);
+    margin-top: 0;
+    /* border: 1px solid yellow; */
+}
+
+.fot_sr_thrdcomp_main {
+
+    /* border: 1px solid red; */
+    padding-top: 13vh;
+
+}
+
+.fot_sr_sicn {
+
+    color: var(--blue);
+
+
+}
+
+.fot_sr_sicn:hover {
+
+    color: var(--lightBlue);
+
+}
+
+.foot_third_main{
+
+    color: var(--lightBlue);
+    font-size: .7em;
+    margin-top: 0;
+
+}
+

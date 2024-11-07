@@ -1,0 +1,36 @@
+:root {
+
+    --black: #28282B;
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+    --gray: #d7d6d6;
+}
+
+
+body {
+    background: var(--black) !important;
+    
+}
+
+.login_card{
+
+    background: var(--lightBlue) !important;
+
+
+}
+
+.shnm{
+
+    color: var(--blue) !important;
+    font-weight: 700;
+
+}
+
+.crd_sub_tital{
+
+    color: var(--black) !important;
+    font-weight: 900;
+
+}

@@ -1,0 +1,55 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+.abt_secompo_main {
+
+    margin-top: 5vh;
+  
+
+}
+
+.abt_seco_right_main h1{
+
+    color: var(--blue);
+
+}
+
+.text-uppercase {
+    letter-spacing: 1.5px;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lead {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.text-danger {
+    color: #d9534f;
+}

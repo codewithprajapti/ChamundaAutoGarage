@@ -1,0 +1,83 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+.serv_first_comp_main {
+
+    margin-top: 5vh;
+
+}
+
+.srv_fir_cmp_fr_frcol {
+
+    font-size: 1.9em;
+    font-weight: 700;
+    color: var(--blue);
+
+}
+
+.srv_fir_cmp_fr_seccol h5 {
+
+    color: var(--blue);
+    font-weight: 600;
+    margin-left: 3vw;
+
+}
+
+.srv_fir_cmp_fr_seccol p {
+
+    color: var(--white);
+    font-size: 1em;
+    font-weight: 500;
+
+
+}
+
+.srv_fir_cmp_sr_main h5 {
+
+    color: var(--yellow);
+    font-weight: 500;
+
+}
+
+.srv_fir_cmp_sr_main h2 {
+
+    color: var(--blue);
+    font-weight: 700;
+
+}
+
+
+/*  */
+
+.srv_fir_cmp_tr_main {
+
+    margin-top: 5vh;
+
+}
+
+.ho_ser_crd_logo {
+
+    color: var(--blue);
+
+}
+
+.ho_ser_crd_tit {
+
+    margin-top: 2vh;
+    /* margin-left: 4.5vw; */
+    color: var(--blue);
+    font-size: 1.3em;
+
+}
+
+
+.srv_fir_cmp_for_main{
+
+    margin-top: 2vh;
+
+}

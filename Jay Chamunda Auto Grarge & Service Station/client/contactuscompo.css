@@ -1,0 +1,34 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #2C2C2C;
+}
+
+h6 {
+    color: #D9534F;
+}
+
+.contact-info p {
+    margin: 0;
+    color: #6C757D;
+}
+
+.contact-info i {
+    color: #D9534F;
+    margin-right: 8px;
+}
+
+.btn-danger {
+    background-color: #D9534F;
+    border: none;
+}

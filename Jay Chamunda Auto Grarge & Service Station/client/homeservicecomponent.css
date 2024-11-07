@@ -1,0 +1,44 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+
+}
+
+.ho_ser_main {
+
+    margin-top: 5vh;
+
+}
+
+.ho_ser_crd_logo {
+
+    color: var(--blue);
+
+}
+
+.ho_ser_crd_tit {
+
+    margin-top: 2vh;
+    margin-left: 4.5vw;
+    color: var(--blue);
+    font-size: 1.3em;
+
+}
+
+.ho_ser_crd_btn {
+
+    margin-left: 5vw;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+
+}
+
+.ho_ser_crd_btn:hover{
+
+    background: var(--blue);
+    color: var(--lightBlue);
+
+}

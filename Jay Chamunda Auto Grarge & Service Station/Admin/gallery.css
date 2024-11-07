@@ -1,0 +1,54 @@
+:root {
+
+    --black: #28282B;
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+    --gray: #d7d6d6;
+}
+
+body{
+
+    background: var(--white);
+
+}
+
+.img-thumbnail {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.img_con{
+
+    background: none !important;
+
+}
+
+.det{
+
+    text-decoration: none !important;
+    color: var(--lightBlue);
+    background: rgb(252, 82, 82);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: 0;
+    border-radius: 8px;
+
+}
+
+.det:hover{
+
+    background: red;
+    color: var(--lightBlue); 
+    cursor: pointer;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 0;
+
+}

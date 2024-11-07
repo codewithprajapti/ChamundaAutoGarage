@@ -1,0 +1,68 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-section {
+    background: linear-gradient(rgba(48, 52, 129, 0.596), rgba(48, 52, 129, 0.596)), url("https://img.freepik.com/premium-photo/motorcycle-road-motorcycle-racing-sports-bike-riding-hd-wallpaper_594776-1204.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 67vh;
+
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .fa-lg {
+    font-size: 1.5rem;
+}
+
+.footer-section .text-warning {
+    color: #f0ad4e;
+}
+
+.footer-section .text-success {
+    color: #28a745;
+}
+
+.footer-section .text-center p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ddd;
+}

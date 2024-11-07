@@ -1,0 +1,115 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+.mhed_main{
+
+    background: var(--blue);
+
+}
+
+.mhed_fr_main{
+
+    padding-top: 2vh;
+
+}
+
+.mhed_add_main{
+
+    color: var(--yellow);
+    font-size: 1.2em;
+
+}
+
+.mhed_sh_nm{
+
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+    color: var(--white);
+
+}
+
+.hed_social_icon{
+
+    color: var(--yellow);
+
+}
+
+.hed_social_icon:hover{
+
+    color: var(--lightBlue);
+
+}
+
+
+hed_sr_main {
+
+    /* border: 1px solid red; */
+    margin-top: 2vh;
+
+}
+
+.hed_sr_logo_main img {
+
+    width: 50%;
+    height: 13vh;
+
+}
+
+.menu_strip {
+
+    font-size: 1.3em;
+    text-align: center;
+
+}
+
+.menu_strip li {
+
+    display: inline-block;
+    padding: 2vw 2vh;
+
+}
+
+.menu_strip li a {
+
+    text-decoration: none;
+    color: var(--lightBlue);
+
+}
+
+.menu_strip li a:hover {
+
+    color: var(--yellow);
+
+}
+
+
+
+.hed_sr_time_logo {
+
+    /* border: 1px solid green; */
+    margin-top: 4.5vh;
+
+
+}
+
+.hed_sr_time_de_main {
+
+    /* border: 1px solid yellow; */
+    margin-top: 2.5vh;
+    font-size: 1.05em;
+    color: var(--yellow);
+
+
+}
+
+.hed_sr_time_de_main:hover {
+
+    color: var(--lightBlue);
+
+}

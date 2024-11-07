@@ -1,0 +1,28 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+
+.main_banner{
+
+    background: url('https://images.pexels.com/photos/7232658/pexels-photo-7232658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    align-items: center;
+
+
+}
+
+.main_banner h1{
+
+color: var(--blue);
+padding-left: 40.3vw;
+
+}
+

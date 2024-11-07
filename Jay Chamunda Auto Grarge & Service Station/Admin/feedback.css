@@ -1,0 +1,63 @@
+:root {
+
+    --black: #28282B;
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+    --gray: #d7d6d6;
+}
+
+
+::-webkit-scrollbar {
+
+    width: 0;
+
+}
+
+.main_con{
+
+    margin-top: 5vh;
+}
+
+.crd_btn{
+
+    text-decoration: none;
+    color: var(--lightBlue);
+    background: rgb(30, 100, 230);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: 0;
+    border-radius: 8px;
+
+}
+
+.crd_btn:hover{
+
+    background: var(--blue);
+    cursor: pointer;
+
+}
+
+.crd_det{
+
+    text-decoration: none;
+    color: var(--lightBlue);
+    background: rgb(252, 82, 82);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: 0;
+    border-radius: 8px;
+
+}
+
+.crd_det:hover{
+
+    background: red;
+    cursor: pointer;
+
+}

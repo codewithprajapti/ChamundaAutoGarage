@@ -1,0 +1,243 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+    --animate-duration: 3000ms;
+    --animate-delay: 1s;
+
+}
+
+.hed_main {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hedbg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+
+}
+
+.hed_fr_main {
+
+    padding-top: 2vh;
+
+}
+
+.hed_fr_add_det {
+
+    color: var(--yellow);
+
+}
+
+.hed_fr_nam_main {
+
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+    color: var(--white);
+
+}
+
+.hed_social_icon {
+
+    color: var(--yellow);
+
+}
+
+.hed_social_icon:hover {
+
+    color: var(--lightBlue);
+
+
+}
+
+.hed_sr_main {
+
+    /* border: 1px solid red; */
+    margin-top: 2vh;
+
+}
+
+.hed_sr_logo_main img {
+
+    width: 50%;
+    height: 13vh;
+
+}
+
+.menu_strip {
+
+    font-size: 1.3em;
+    text-align: center;
+
+}
+
+.menu_strip li {
+
+    display: inline-block;
+    padding: 2vw 2vh;
+
+}
+
+.menu_strip li a {
+
+    text-decoration: none;
+    color: var(--lightBlue);
+
+}
+
+.menu_strip li a:hover {
+
+    color: var(--yellow);
+
+}
+
+
+
+.hed_sr_time_logo {
+
+    /* border: 1px solid green; */
+    margin-top: 4.5vh;
+
+
+}
+
+.hed_sr_time_de_main {
+
+    /* border: 1px solid yellow; */
+    margin-top: 2.5vh;
+    font-size: 1.05em;
+    color: var(--yellow);
+
+
+}
+
+.hed_sr_time_de_main:hover {
+
+    color: var(--lightBlue);
+
+}
+
+
+
+
+
+.hed_ims1_det_main h1 {
+
+    font-size: 1.5em;
+    margin-top: 20vh;
+    color: var(--lightBlue);
+
+}
+
+
+.hed_ims1_det_sub {
+
+    font-size: 2.5em;
+    color: var(--white);
+
+}
+
+.hed_ims_det_btn {
+
+    font-size: 1.2em;
+    margin-top: 1vh;
+    text-align: center;
+    padding: 1vh 2vw;
+    background: none;
+    color: var(--lightBlue);
+    border: 1px solid var(--white);
+
+}
+
+.hed_ims_det_btn:hover {
+
+    background: var(--blue);
+    border: 1px solid var(--blue);
+
+}
+
+.hed-ims_img {
+
+    filter: drop-shadow(5px 5px 10px var(--white));
+
+}
+
+.hed_ims2_det_main h1 {
+
+    font-size: 1.5em;
+    margin-top: 20vh;
+    color: var(--lightBlue);
+
+}
+
+
+.hed_ims2_det_sub {
+
+    font-size: 2.5em;
+    color: var(--white);
+
+}
+
+.hed_ims2_img_main img {
+
+    width: 100%;
+    height: 70vh;
+
+}
+
+.animate__animated .animate__backInLeft{
+
+    --animate-duration: 1s;
+
+}
+
+.animate__animated .animate__backInLeft{
+
+    --animate-duration: 2s;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .hed_fr_add_main {
+
+        display: none;
+
+    }
+
+    .hed_fr_nam_main {
+
+        display: none;
+    }
+
+    .hed_fr_social_main {
+
+        display: none;
+
+    }
+
+    .hed_sr_logo_main {
+
+        width: 50%;
+        height: 4vh;
+
+    }
+
+    .hed_sr_menu_main_pc {
+
+        display: none;
+
+    }
+
+}

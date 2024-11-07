@@ -1,0 +1,157 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+    --lightgray: #5f5f5f;
+    --darkgray: #353434;
+}
+
+.serv_price_main{
+
+    margin-top: 5vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('serviceprice.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+
+}
+
+.srv_price_fr_main h2 {
+
+    color: var(--lightBlue);
+    font-weight: 600;
+    margin-top: 5vh;
+
+}
+
+.srv_price_fr_main h1 {
+
+    color: var(--blue);
+    font-weight: 700;
+
+}
+
+.srv_price_fr_main h6 {
+
+    color: var(--white);
+    font-weight: 600;
+
+}
+
+
+.serv_price_main hr{
+
+    color: var(--white);
+    width: 90%;
+    /* margin-left: 3vw; */
+
+}
+
+.srv_pri_sec_left{
+
+    background: var(--lightgray);
+    padding: 2;
+
+}
+
+.srv_pri_sec_left h5{
+
+    color: var(--blue);
+    font-weight: 700;
+
+}
+
+.srv_pri_sec_left p{
+
+    color: var(--white);
+
+}
+
+.srv_pri_sec_mid{
+
+    background: var(--darkgray);
+    padding: 3
+
+}
+
+.srv_pri_sec_mid_icn{
+
+    color: var(--blue);
+
+}
+
+.srv_pri_sec_mid p{
+
+    color: var(--lightBlue);
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.srv_pri_sec_right{
+
+    background: var(--blue);
+    padding: 3;
+    
+
+}
+
+.srv_pri_sec_right h6{
+
+    font-size: .8em;
+    color: var(--white);
+    margin-bottom: -1vh;
+    margin-left: 10.3vw;
+
+}
+
+.srv_pri_sec_right h1{
+
+    color: var(--lightBlue);
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+
+
+}
+
+.srv_pri_sec_right h5{
+
+    color: rgb(219, 32, 32);
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+
+}
+
+.srv_pri_sec_right_btn{
+
+    color: var(--lightBlue);
+    border: 1px solid var(--lightBlue);
+    margin-top: 0;
+   
+
+}
+
+.srv_pri_sec_right_btn:hover{
+
+    background: var(--lightBlue);
+    border: 1px solid var(--lightBlue);
+    color: var(--blue);
+
+}
+
+.srv_pri_sec_sr_main{
+
+    margin-top: .8vh !important;
+
+}
+
+.srv_pri_sec_thr_main{
+
+    margin-top: .8vh !important;
+
+}

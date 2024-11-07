@@ -1,0 +1,53 @@
+:root {
+
+    --blue: #303481;
+    --lightBlue: #D6E6F2;
+    --white: #F5F5F5;
+    --yellow: #FFF200;
+}
+
+.abt_frc_main{
+
+    margin-top: 5vh;
+
+}
+
+.content-section {
+    margin-top: 50px;
+}
+
+.content-section h6{
+
+    color: var(--blue);
+
+}
+.content-section h2{
+
+    color: var(--yellow);
+
+}
+.content-section h3{
+
+    color: var(--blue);
+
+}
+
+.image-container {
+    position: relative;
+}
+
+.main-image {
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.overlay-image {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    top: 60%;
+    right: 10%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
